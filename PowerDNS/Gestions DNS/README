@@ -1,0 +1,10 @@
+Cette partie s'adresse pour la gesiton PTDR sur un serveur PowerDNS avec une clé API. 
+
+add-v4-PTR.py : 
+Permet d'ajouter les RDNS de toute les IPv4 d'un bloc sans les taper une par une avec une nomeclature commune
+Utilisation concrête :
+python3 add-v4-PTR.py 1.1.1.0/24 rev.ecowan.network
+(Remplace 1.1.1.0/24 par votre BLOC)
+(remplacer rev.ecowan.network par le domaine / sous domaine que vous avez pour créer le RDNS)
+
+clean-v4-PTR.py :
